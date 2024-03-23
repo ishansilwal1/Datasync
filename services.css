@@ -1,0 +1,533 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #e0effa; /* Adjust this value to match the height of your header */
+}
+
+.services {
+  margin-top: 120px;
+  width: 100%;
+}
+.servicesheading {
+  margin: auto;
+  text-align: center;
+  width: 459px;
+  height: 110px;
+  flex-shrink: 0;
+  color: #163a75;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.25%; /* 62.1px */
+  letter-spacing: 2.4px;
+}
+.servsubheading {
+  width: 574px;
+  height: 81px;
+  color: #000;
+  font-family: Poppins;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 169.5%; /* 30.51px */
+  letter-spacing: 0.18px;
+}
+
+/* services heading media query*/
+
+@media (max-width: 768px) {
+  .services {
+    margin-top: 41px;
+    width: 100%;
+  }
+
+  .servicesheading {
+    color: #163a75;
+    font-family: Poppins;
+    font-size: 28.07px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155.25%; /* 43.579px */
+    letter-spacing: 1.684px;
+    width: 322.105px;
+    height: 77.193px;
+    flex-shrink: 0;
+  }
+  .servsubheading {
+    width: 402.807px;
+    height: 56.842px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 12.632px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.5%; /* 21.411px */
+    letter-spacing: 0.126px;
+  }
+}
+
+.tabbox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 129px;
+  margin-right: 129px;
+  margin-top: 100px;
+}
+
+.tab {
+  width: 372px;
+  height: 463px;
+  background-color: white;
+  box-shadow: 4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab img {
+  width: 79px;
+  height: 79px;
+  margin-top: 39px;
+  margin-left: -160px;
+}
+
+.tab1head {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 22px;
+  margin-left: -70px;
+  margin-top: 0;
+}
+.tab2head {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 22px;
+  margin-left: -65px;
+  margin-top: 0;
+}
+.tab3head {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 22px;
+  margin-left: -129px;
+  margin-top: 0;
+}
+
+.tab1txt {
+  width: 335px;
+  height: 265px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 12px;
+  line-height: 127.074%; /* 25.415px */
+  letter-spacing: 1.8px;
+  margin-top: 22px;
+}
+.tab2txt {
+  width: 335px;
+  height: 265px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 12px;
+  line-height: 127.074%; /* 25.415px */
+  letter-spacing: 1.8px;
+  margin-top: 22px;
+}
+.tab3txt {
+  width: 335px;
+  height: 265px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 12px;
+  line-height: 127.074%; /* 25.415px */
+  letter-spacing: 1.8px;
+  margin-top: 22px;
+}
+/* .tab1 p {
+width: 335px;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+padding-left: 29px;
+line-height: 127.074%;
+letter-spacing: 1.8px;
+margin-top: 0px;
+} */
+.tab1head,
+.tab2head,
+.tab3head {
+  padding-top: 22px;
+  padding-left: 29px;
+}
+.exbtn {
+  width: 298.514px;
+  height: 70.239px;
+  margin-left: 153px;
+  border-radius: 24.388px;
+  background: #163a75;
+  margin-top: 39px;
+}
+.exbtn h1 {
+  color: #fff;
+  padding: 14px 48.51px 21.24px 26px;
+  font-family: Poppins;
+  font-size: 31.217px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* Media query for mobile */
+@media (max-width: 768px) {
+  .tabbox {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 55px;
+  }
+
+  .tab {
+    width: 318.972px;
+    height: 397px;
+    margin-bottom: 20px;
+  }
+  .tab img {
+    width: 68px;
+    height: 68px;
+    margin-left: -129px;
+  }
+
+  .tab1head {
+    color: #000;
+    font-family: Inter;
+    font-size: 27.527px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 22px;
+    margin-left: -70px;
+    margin-top: 0;
+  }
+  .tab2head {
+    color: #000;
+    font-family: Inter;
+    font-size: 27.527px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 22px;
+    margin-left: -65px;
+    margin-top: 0;
+  }
+  .tab3head {
+    color: #000;
+    font-family: Inter;
+    font-size: 27.527px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 22px;
+    margin-left: -129px;
+    margin-top: 5px;
+  }
+
+  .tab1txt {
+    width: 291.611px;
+    height: 230.678px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 17.634px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.074%; /* 22.409px */
+    letter-spacing: 1.587px;
+    padding-left: 12px;
+    line-height: 127.074%; /* 25.415px */
+    letter-spacing: 1.8px;
+  }
+  .tab2txt {
+    width: 291.611px;
+    height: 230.678px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 17.634px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.074%; /* 22.409px */
+    letter-spacing: 1.587px;
+    padding-left: 12px;
+    line-height: 127.074%; /* 25.415px */
+    letter-spacing: 1.8px;
+  }
+  .tab3txt {
+    width: 291.611px;
+    height: 230.678px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 17.634px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.074%; /* 22.409px */
+    letter-spacing: 1.587px;
+    padding-left: 12px;
+    line-height: 127.074%; /* 25.415px */
+    letter-spacing: 1.8px;
+  }
+  .exbtn {
+    width: 298.514px;
+    height: 70.239px;
+    margin-left: 50px;
+    border-radius: 24.388px;
+    background: #163a75;
+  }
+  .exbtn h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 31.217px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+/* CSS for partners */
+.partners {
+  width: 1179px;
+  height: 541px;
+  flex-shrink: 0;
+  background-color: white;
+  margin-left: 130px;
+}
+.partners h1 {
+  color: #163a75;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.25%; /* 62.1px */
+  letter-spacing: 2.4px;
+  margin-left: 403px;
+  margin-top: 45px;
+}
+
+.images {
+  width: 99.5%;
+  height: 500px;
+  margin-top: 48px;
+  display: grid;
+  justify-items: end;
+  align-items: baseline;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 100px;
+}
+.grid1 img {
+  width: 277px;
+  height: 167px;
+}
+.grid2 img {
+  width: 325px;
+  height: 154px;
+}
+.grid3 img {
+  width: 473px;
+  height: 137px;
+}
+.grid4 img {
+  width: 277px;
+  height: 94px;
+}
+.grid5 img {
+  width: 279px;
+  height: 66px;
+}
+.grid6 img {
+  width: 275px;
+  height: 79px;
+}
+@media (max-width: 768px) {
+  .partners{
+     width: 351px;
+    height: 520px;
+    margin-left: 30px;
+  }
+  .partners h1{
+    color: #163A75;
+font-family: Poppins;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: 155.25%; /* 45.023px */
+letter-spacing: 1.74px;
+margin-left: 15px;
+  }
+  .images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 5px;
+  }
+  .grid1 img {
+    width: 135.17px;
+height: 81.492px;
+margin-right: 20px;
+  }
+  .grid2 img {
+    width: 158.593px;
+    height: 75.148px;
+  }
+  .grid3 img {
+    width: 168px;
+    height: 57.437px;
+    padding-right: 50px;
+
+  }
+  .grid4 img {
+    width: 136px;
+    height: 50.431px;
+    margin-right: 10px;
+  }
+  .grid5 img {
+    width: 147.854px;
+    height: 34.976px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  .grid6 img {
+    
+    width: 145.735px;
+    height: 41.866px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+
+/*meta logo */
+
+/* Css for would you like to join */
+.join {
+  height: 285px;
+  width: 973px;
+  background-color: #fff;
+  margin-top: 168px;
+  margin-left: 230px;
+}
+
+.join h1 {
+  font-family: Poppins;
+  letter-spacing: 1.8px;
+  font-size: 40.88px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 29px;
+  padding-left: 30px;
+}
+
+.join p {
+  font-family: Poppins;
+  font-size: 20.44px;
+  letter-spacing: 1.8px;
+  width: 586.57px;
+  height: 95.04px;
+  margin-left: 158px;
+  margin-top: 21px;
+}
+.nbtn {
+  width: 213.44px;
+  height: 50.22px;
+  margin-left: 697px;
+  border-radius: 24.388px;
+  background: #163a75;
+}
+.btntxt {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20.74px;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+@media (max-width: 768px) {
+  .join {
+    width: 395px;
+    height: 149px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .join h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16.594px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 25.638px */
+    letter-spacing: 1.659px;
+    margin-left: -20px;
+  }
+  .join p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 154.5%; /* 18.54px */
+    letter-spacing: 0.24px;
+    margin-left: 45px;
+    margin-top: 5px;
+    width: 327px;
+  }
+  .nbtn {
+    width: 152px;
+    height: 39px;
+    margin-left: 226px;
+    border-radius: 24.388px;
+    background: #163a75;
+    margin-top: -51px;
+  }
+  .btntxt {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 13.719px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
